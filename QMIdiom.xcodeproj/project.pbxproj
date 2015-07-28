@@ -13,6 +13,7 @@
 		FF57C91C1B666D1B00157705 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF57C91B1B666D1B00157705 /* Images.xcassets */; };
 		FF57C91F1B666D1B00157705 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF57C91D1B666D1B00157705 /* LaunchScreen.xib */; };
 		FF57C92B1B666D1B00157705 /* QMIdiomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF57C92A1B666D1B00157705 /* QMIdiomTests.swift */; };
+		FF848A771B67B70E00C7117D /* QiMENG.QMCapture.db in Resources */ = {isa = PBXBuildFile; fileRef = FF848A761B67B70E00C7117D /* QiMENG.QMCapture.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FF57C9241B666D1B00157705 /* QMIdiomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMIdiomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF57C9291B666D1B00157705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF57C92A1B666D1B00157705 /* QMIdiomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMIdiomTests.swift; sourceTree = "<group>"; };
+		FF848A761B67B70E00C7117D /* QiMENG.QMCapture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = QiMENG.QMCapture.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FF57C9111B666D1B00157705 /* QMIdiom */ = {
 			isa = PBXGroup;
 			children = (
+				FF848A761B67B70E00C7117D /* QiMENG.QMCapture.db */,
 				FF57C9141B666D1B00157705 /* AppDelegate.swift */,
 				FF57C9161B666D1B00157705 /* ViewController.swift */,
 				FF57C9181B666D1B00157705 /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF848A771B67B70E00C7117D /* QiMENG.QMCapture.db in Resources */,
 				FF57C91A1B666D1B00157705 /* Main.storyboard in Resources */,
 				FF57C91F1B666D1B00157705 /* LaunchScreen.xib in Resources */,
 				FF57C91C1B666D1B00157705 /* Images.xcassets in Resources */,
@@ -411,6 +415,7 @@
 				FF57C9301B666D1B00157705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF57C9311B666D1B00157705 /* Build configuration list for PBXNativeTarget "QMIdiomTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				FF57C9331B666D1B00157705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
